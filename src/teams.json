@@ -1,0 +1,82 @@
+[
+    {
+        "teamCode" : 3,
+        "teamName" : "Arsenal FC"
+    },
+    {
+        "teamCode" : 91,
+        "teamName" : "AFC Bornemouth"
+    },
+    {
+        "teamCode" : 36,
+        "teamName" : "Brighton & Hove Albion FC"
+    },
+    {
+        "teamCode" : 90,
+        "teamName" : "Burnley FC"
+    },
+    {
+        "teamCode" : 97,
+        "teamName" : "Cardiff City FC"
+    },
+    {
+        "teamCode" : 8,
+        "teamName" : "Chelsea FC"
+    },
+    {
+        "teamCode" : 31,
+        "teamName" : "Crystal Palace FC"
+    },
+    {
+        "teamCode" : 11,
+        "teamName" : "Everton FC"
+    },
+    {
+        "teamCode" : 54,
+        "teamName" : "Fulham FC"
+    },
+    {
+        "teamCode" : 38,
+        "teamName" : "Huddersfield Town AFC"
+    },
+    {
+        "teamCode" : 13,
+        "teamName" : "Leicester City FC"
+    },
+    {
+        "teamCode" : 14,
+        "teamName" : "Liverpool FC"
+    },
+    {
+        "teamCode" : 43,
+        "teamName" : "Manchester City FC"
+    },
+    {
+        "teamCode" : 1,
+        "teamName" : "Manchester United FC"
+    },
+    {
+        "teamCode" : 4,
+        "teamName" : "Newcastle United FC"
+    },
+    {
+        "teamCode" : 20,
+        "teamName" : "Southampton FC"
+    },
+    {
+        "teamCode" : 6,
+        "teamName" : "Tottenham Hotspur FC"
+    },
+    {
+        "teamCode" : 57,
+        "teamName" : "Watford FC"
+    },
+    {
+        "teamCode" : 21,
+        "teamName" : "Westham United FC"
+    },
+    {
+        "teamCode" : 39,
+        "teamName" : "Wolverhampton Wanderers FC"
+    }
+]

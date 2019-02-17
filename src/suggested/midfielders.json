@@ -1,0 +1,59 @@
+[
+	{
+		"fName": "Ryan",
+		"lName": "Fraser",
+		"suggestedBy": "Jesper",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	},
+	{
+		"fName": "David",
+		"lName": "Brooks",
+		"suggestedBy": "Björn",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	},
+	{
+		"fName": "David",
+		"lName": "Silva",
+		"suggestedBy": "Gusten",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	}
+]

@@ -1,0 +1,59 @@
+[
+	{
+		"fName": "Mohamed",
+		"lName": "Salah",
+		"suggestedBy": "Jesper",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	},
+	{
+		"fName": "Sergio",
+		"lName": "Agüero",
+		"suggestedBy": "Björn",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	},
+	{
+		"fName": "Roberto",
+		"lName": "Firmino",
+		"suggestedBy": "Gusten",
+		"nextMatches": [
+			{
+				"home": false,
+				"team": "MUN"
+			},
+			{
+				"home": false,
+				"team": "LIV"
+			},
+			{
+				"home": false,
+				"team": "CRY"
+			}
+		]
+	}
+]
