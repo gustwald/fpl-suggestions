@@ -26,7 +26,6 @@ const parsePrice = price => {
 };
 
 const getTwitter = name => {
-  console.log(name);
   switch(name) {
     case 'Björn':
       return 'https://twitter.com/JohnsonBjorn';
