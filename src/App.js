@@ -23,8 +23,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state);
-
     const { players, visibleView } = this.state;
     const { defenders, midfielders, strikers, captains, warnings } = players;
     return (
