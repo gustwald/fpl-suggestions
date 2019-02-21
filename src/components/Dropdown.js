@@ -5,7 +5,7 @@ class Dropdown extends React.Component {
 		super(props);
 		this.state = {
 			expanded: false,
-			value: 'Filtrera'
+			value: 'Backar'
 		};
 	}
 	
@@ -36,7 +36,7 @@ class Dropdown extends React.Component {
 				<div className="ddcontent">
 				{
 					this.props.options.map((item, i) => {
-						return <div key={i} onClick={() => { this.handleItemClick(item); }} className="item">{item.value}</div>;
+						return this.state.value !== item.value && <div key={i} onClick={() => { this.handleItemClick(item); }} className="item">{item.value}</div>;
 					})
 				}
 				</div>
