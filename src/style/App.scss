@@ -95,10 +95,19 @@ h2 {
    
       border: 1px solid #cbc5c5;
     }
+    @media screen and (max-width: 500px) {
+        width: 45px;
+        height: 45px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+      }
   }
   @media screen and (max-width: 500px) {
     margin-bottom: 16px;
     width: 110px;
+    // padding: 0 7px;
   }
 }
 .nav {
@@ -222,7 +231,10 @@ body {
 	outline: none;
     position: relative;
 	transition: box-shadow .1s linear;
-	width: 150px;
+    width: 150px;
+    @media screen and (max-width: 500px) {
+        width: 115px;
+    }
     position: absolute;
     right:10px;
     top: 10px;
