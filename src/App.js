@@ -1,9 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import Player from './components/Player';
-
+import Dropdown from './components/Dropdown';
 import pitch from './img/pitch.png';
-
-
 import { parsedPlayers } from './funcs';
 import './style/App.scss';
 
@@ -28,19 +26,11 @@ class App extends Component {
     return (
       <div className="App">
         <h2 className="heading">Gameweek 27</h2>
-        <nav className="nav">
-          <div className={visibleView === 'defenders' ? 'selected' : ''} onClick={() => this.selecteView('defenders')}>
-            Backar
-          </div>
-          <div className={visibleView === 'midfielders' ? 'selected' : ''} onClick={() => this.selecteView('midfielders')}>
-            Mittfältare
-          </div>
-          <div className={visibleView === 'strikers' ? 'selected' : ''} onClick={() => this.selecteView('strikers')}>
-            Anfallare
-          </div>
-          <div className={visibleView === 'captains' ? 'selected' : ''} onClick={() => this.selecteView('captains')}>Kaptener</div>
-          <div className={visibleView === 'warnings' ? 'selected' : ''} onClick={() => this.selecteView('warnings')}>Varningsflaggor</div>
-        </nav>
+        <Dropdown options={[{ value: 'Backar', code: 'defenders'}, { value: 'Mittfältare', code: 'midfielders'}, { value: 'Anfallare', code: 'strikers'}, { value: 'Kaptener', code: 'captains'}, { value: 'Varningsflagg', code: 'warnings'}]}
+            updateView={(view) => {
+                this.setState({ visibleView: view });
+            }}
+        />
         <div style={{ backgroundImage: `url(${pitch})` }} className="pitch">
           <div>
             {visibleView === 'defenders' && (
